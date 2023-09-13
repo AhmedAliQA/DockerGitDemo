@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 26 09:38:09 EET 2023
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1693031889257
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.google.guava\:failureaccess\:jar\:sources\:1.0.1 from/to central (https\://repo.maven.apache.org/maven2)\: Connection reset

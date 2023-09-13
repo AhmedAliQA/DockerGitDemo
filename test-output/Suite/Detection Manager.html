@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Detection Manager</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Detection Manager</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 27 12:43:34 EEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>1929 seconds (1929228 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0020.AddingTransactionAsEvidence()'><b>AddingTransactionAsEvidence</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0020</td>
+<td></td>
+<td>23</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0020@4b90c73e</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0017.VerifyingDetectionCaseAttachments()'><b>VerifyingDetectionCaseAttachments</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0017</td>
+<td></td>
+<td>120</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0017@457f5f98</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0007.HoldingOnInvestigation()'><b>HoldingOnInvestigation</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0007</td>
+<td></td>
+<td>84</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0007@4d61d93a</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0002.ConfiguringExecutingScenarioNoDetections()'><b>ConfiguringExecutingScenarioNoDetections</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0002</td>
+<td></td>
+<td>46</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0002@57885885</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0003.FalsePositive()'><b>FalsePositive</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0003</td>
+<td></td>
+<td>87</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0003@6f2c7a5e</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0005.ChangingStatusForMultipleDetections()'><b>ChangingStatusForMultipleDetections</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0005</td>
+<td></td>
+<td>82</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0005@544a93b0</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0022.AddingTransactionAsEvidence()'><b>AddingTransactionAsEvidence</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0022</td>
+<td></td>
+<td>21</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0022@603da45</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0012.VerifyingDetectionCustomerNotes()'><b>VerifyingDetectionCustomerNotes</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0012</td>
+<td></td>
+<td>120</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0012@6f849cdd</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0013.VerifyingDetectionAccountNotes()'><b>VerifyingDetectionAccountNotes</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0013</td>
+<td></td>
+<td>126</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0013@d1171ec</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0009.AccountLinkedDetectionsData()'><b>AccountLinkedDetectionsData</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0009</td>
+<td></td>
+<td>21</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0009@3631bac6</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0001.GeneratingCasesOnRealDetection()'><b>GeneratingCasesOnRealDetection</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0001</td>
+<td></td>
+<td>100</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0001@75345061</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0004.ChoosingNotToGenerateCases()'><b>ChoosingNotToGenerateCases</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0004</td>
+<td></td>
+<td>90</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0004@71f9c7b</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0021.AddingTransactionAsEvidence()'><b>AddingTransactionAsEvidence</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0021</td>
+<td></td>
+<td>40</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0021@74acc24b</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0016.VerifyingDetectionCustomerAttachments()'><b>VerifyingDetectionCustomerAttachments</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0016</td>
+<td></td>
+<td>121</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0016@43e7d819</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0006.ConcludingInvestigation()'><b>ConcludingInvestigation</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0006</td>
+<td></td>
+<td>99</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0006@4113b5cc</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0018.VerifyingDetectionAccountAttachments()'><b>VerifyingDetectionAccountAttachments</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0018</td>
+<td></td>
+<td>134</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0018@48874b50</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0010.CustomerLinkedDetectionsData()'><b>CustomerLinkedDetectionsData</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0010</td>
+<td></td>
+<td>23</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0010@6ad0d419</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0014.VerifyingDetectionCaseNotes()'><b>VerifyingDetectionCaseNotes</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0014</td>
+<td></td>
+<td>121</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0014@4139998e</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0015.VerifyingDetectionAttachments()'><b>VerifyingDetectionAttachments</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0015</td>
+<td></td>
+<td>122</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0015@84edfb9</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0019.verifyingDetectionHistory()'><b>verifyingDetectionHistory</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0019</td>
+<td></td>
+<td>131</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0019@36cae6ee</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0008.VerifyingDetectionGeneralTabInfo()'><b>VerifyingDetectionGeneralTabInfo</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0008</td>
+<td></td>
+<td>17</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0008@366668a9</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0023.AddingTransactionAsEvidence()'><b>AddingTransactionAsEvidence</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0023</td>
+<td></td>
+<td>21</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0023@671fb1fd</td></tr>
+<tr>
+<td title='com.AML.TestCases.DetectionManager.DetectionManager_0011.VerifyingDetectionNotes()'><b>VerifyingDetectionNotes</b><br>Test class: com.AML.TestCases.DetectionManager.DetectionManager_0011</td>
+<td></td>
+<td>112</td>
+<td>com.AML.TestCases.DetectionManager.DetectionManager_0011@263de070</td></tr>
+</table><p>
+</body>
+</html>

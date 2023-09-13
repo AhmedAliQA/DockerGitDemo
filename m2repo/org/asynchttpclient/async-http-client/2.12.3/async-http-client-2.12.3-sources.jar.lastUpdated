@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 26 09:38:33 EET 2023
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1693031913937
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.asynchttpclient\:async-http-client\:jar\:sources\:2.12.3 from/to central (https\://repo.maven.apache.org/maven2)\: Connection reset

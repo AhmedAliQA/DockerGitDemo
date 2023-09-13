@@ -1,0 +1,305 @@
+<html>
+<head>
+<title>TestNG:  Smoke</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>45/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 27 19:39:22 EEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>1635 seconds (1635669 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0020.Filter_CustomerCardHomePageBy_OpenTasks()'><b>Filter_CustomerCardHomePageBy_OpenTasks</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0020</td>
+<td></td>
+<td>16</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0020@143f4d52</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0017.Filter_CustomerCardHomePageBy_Compliance_Monitoring_WithYesOption()'><b>Filter_CustomerCardHomePageBy_Compliance_Monitoring_WithYesOption</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0017</td>
+<td></td>
+<td>18</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0017@40f7a2e9</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0041.Filter_CustomerCardHomePageBy_BankRiskLevel_HIGH()'><b>Filter_CustomerCardHomePageBy_BankRiskLevel_HIGH</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0041<br>Test method: Filter Customer Card By HIGH Bank Risk Level </td>
+<td></td>
+<td>36</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0041@7aaa4694</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0003.Filter_CustomerCardHomePageBy_Category_Entity()'><b>Filter_CustomerCardHomePageBy_Category_Entity</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0003</td>
+<td></td>
+<td>31</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0003@1ec2726f</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0039.Filter_CustomerCardHomePageBy_BankRiskLevel_Low()'><b>Filter_CustomerCardHomePageBy_BankRiskLevel_Low</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0039</td>
+<td></td>
+<td>39</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0039@1fb5eda7</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0032.Filter_CustomerCardHomePageBy_RiskLevel_Low()'><b>Filter_CustomerCardHomePageBy_RiskLevel_Low</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0032</td>
+<td></td>
+<td>37</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0032@21e827c8</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0008.Filter_CustomerCardHomePageBy_Customer_FirstName()'><b>Filter_CustomerCardHomePageBy_Customer_FirstName</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0008</td>
+<td></td>
+<td>17</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0008@598de6bf</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0001.Filter_CustomerCardHomePageBy_Category_Any()'><b>Filter_CustomerCardHomePageBy_Category_Any</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0001</td>
+<td></td>
+<td>98</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0001@5a10b7e8</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0031.Filter_CustomerCardHomePageBy_Nationality()'><b>Filter_CustomerCardHomePageBy_Nationality</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0031</td>
+<td></td>
+<td>22</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0031@3a4af228</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0024.Filter_CustomerCardHomePageBy_CustomEntity()'><b>Filter_CustomerCardHomePageBy_CustomEntity</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0024</td>
+<td></td>
+<td>30</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0024@170738c0</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0035.Filter_CustomerCardHomePageBy_RiskLevel_ExtremelyHigh()'><b>Filter_CustomerCardHomePageBy_RiskLevel_ExtremelyHigh</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0035</td>
+<td></td>
+<td>20</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0035@1717302b</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0045.Filter_CustomerCardHomePageBy_OverallRiskLevel_High()'><b>Filter_CustomerCardHomePageBy_OverallRiskLevel_High</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0045</td>
+<td></td>
+<td>24</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0045@7c81b1e1</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0006.Filter_CustomerCardHomePageBy_Customer_Key()'><b>Filter_CustomerCardHomePageBy_Customer_Key</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0006</td>
+<td></td>
+<td>16</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0006@1e31cf9b</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0025.Filter_CustomerCardHomePageBy_DateOfBirth_Equals()'><b>Filter_CustomerCardHomePageBy_DateOfBirth_Equals</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0025</td>
+<td></td>
+<td>21</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0025@6cf04303</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0027.Filter_CustomerCardHomePageBy_DateOfBirth_From()'><b>Filter_CustomerCardHomePageBy_DateOfBirth_From</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0027</td>
+<td></td>
+<td>50</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0027@20677bc2</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0026.Filter_CustomerCardHomePageBy_DateOfBirth_To()'><b>Filter_CustomerCardHomePageBy_DateOfBirth_To</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0026</td>
+<td></td>
+<td>40</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0026@3cbcd442</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0014.Filter_CustomerCardHomePageBy_Branch()'><b>Filter_CustomerCardHomePageBy_Branch</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0014</td>
+<td></td>
+<td>24</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0014@37d9db26</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0044.Filter_CustomerCardHomePageBy_OverallRiskLevel_Medium()'><b>Filter_CustomerCardHomePageBy_OverallRiskLevel_Medium</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0044</td>
+<td></td>
+<td>77</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0044@5437c315</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0005.Filter_CustomerCardHomePageBy_Customer_ID()'><b>Filter_CustomerCardHomePageBy_Customer_ID</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0005</td>
+<td></td>
+<td>17</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0005@3f1e530c</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0015.Filter_CustomerCardHomePageBy_Close_Monitoring_WithYesOpition()'><b>Filter_CustomerCardHomePageBy_Close_Monitoring_WithYesOpition</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0015</td>
+<td></td>
+<td>91</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0015@4c882ccf</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0002.Filter_CustomerCardHomePageBy_Category_Individual()'><b>Filter_CustomerCardHomePageBy_Category_Individual</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0002</td>
+<td></td>
+<td>68</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0002@de58d71</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0046.Filter_CustomerCardHomePageBy_OverallRiskLevel_ExtremelyHigh()'><b>Filter_CustomerCardHomePageBy_OverallRiskLevel_ExtremelyHigh</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0046</td>
+<td></td>
+<td>18</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0046@5dc9d857</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0038.Filter_CustomerCardHomePageBy_ScoreRiskLevel_Equals()'><b>Filter_CustomerCardHomePageBy_ScoreRiskLevel_Equals</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0038</td>
+<td></td>
+<td>22</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0038@310d05c5</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0022.Filter_CustomerCardHomePageBy_TaskType()'><b>Filter_CustomerCardHomePageBy_TaskType</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0022</td>
+<td></td>
+<td>18</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0022@226e4e59</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0004.CheckingCustomerCardHomePageCategoryFilter_Financial()'><b>CheckingCustomerCardHomePageCategoryFilter_Financial</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0004</td>
+<td></td>
+<td>29</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0004@50235133</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0023.Filter_CustomerCardHomePageBy_TasksAssignedTo()'><b>Filter_CustomerCardHomePageBy_TasksAssignedTo</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0023</td>
+<td></td>
+<td>18</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0023@79bcaf78</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0019.Filter_CustomerCardHomePageBy_Compliance_Monitoring_WithNotDefinedOption()'><b>Filter_CustomerCardHomePageBy_Compliance_Monitoring_WithNotDefinedOption</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0019</td>
+<td></td>
+<td>90</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0019@346dec80</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0042.Filter_CustomerCardHomePageBy_BankRiskLevel_UNKNOWN()'><b>Filter_CustomerCardHomePageBy_BankRiskLevel_UNKNOWN</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0042</td>
+<td></td>
+<td>35</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0042@23504729</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0043.Filter_CustomerCardHomePageBy_OverallRiskLevel_Low()'><b>Filter_CustomerCardHomePageBy_OverallRiskLevel_Low</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0043</td>
+<td></td>
+<td>34</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0043@13b85e31</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0012.Filter_CustomerCardHomePageBy_Type()'><b>Filter_CustomerCardHomePageBy_Type</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0012</td>
+<td></td>
+<td>20</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0012@4dbeba8e</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0037.Filter_CustomerCardHomePageBy_ScoreRiskLevel_Maximum()'><b>Filter_CustomerCardHomePageBy_ScoreRiskLevel_Maximum</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0037</td>
+<td></td>
+<td>83</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0037@416bf563</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0040.Filter_CustomerCardHomePageBy_BankRiskLevel_MEDIUM()'><b>Filter_CustomerCardHomePageBy_BankRiskLevel_MEDIUM</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0040</td>
+<td></td>
+<td>31</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0040@64746794</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0033.Filter_CustomerCardHomePageBy_RiskLevel_Medium()'><b>Filter_CustomerCardHomePageBy_RiskLevel_Medium</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0033</td>
+<td></td>
+<td>79</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0033@6b1bacf5</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0021.Filter_CustomerCardHomePageBy_OverdueTasks()'><b>Filter_CustomerCardHomePageBy_OverdueTasks</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0021</td>
+<td></td>
+<td>17</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0021@69a245d6</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0011.Filter_CustomerCardHomePageBy_Status()'><b>Filter_CustomerCardHomePageBy_Status</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0011</td>
+<td></td>
+<td>24</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0011@7b301349</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0016.Filter_CustomerCardHomePageBy_Close_Monitoring_WithNoOpition()'><b>Filter_CustomerCardHomePageBy_Close_Monitoring_WithNoOpition</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0016</td>
+<td></td>
+<td>19</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0016@745a951a</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0013.Filter_CustomerCardHomePageBy_SubType()'><b>Filter_CustomerCardHomePageBy_SubType</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0013</td>
+<td></td>
+<td>21</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0013@6b1be058</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0009.Filter_CustomerCardHomePageBy_CorporateName()'><b>Filter_CustomerCardHomePageBy_CorporateName</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0009</td>
+<td></td>
+<td>17</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0009@144658b1</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0030.Filter_CustomerCardHomePageBy_Customer_StreetName()'><b>Filter_CustomerCardHomePageBy_Customer_StreetName</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0030</td>
+<td></td>
+<td>17</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0030@608e34bf</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0007.Filter_CustomerCardHomePageBy_Customer_LastName()'><b>Filter_CustomerCardHomePageBy_Customer_LastName</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0007</td>
+<td></td>
+<td>17</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0007@13ed9738</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0010.Filter_CustomerCardHomePageBy_GroupName()'><b>Filter_CustomerCardHomePageBy_GroupName</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0010</td>
+<td></td>
+<td>27</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0010@49b00b5</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0018.Filter_CustomerCardHomePageBy_Compliance_Monitoring_WithNoOption()'><b>Filter_CustomerCardHomePageBy_Compliance_Monitoring_WithNoOption</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0018</td>
+<td></td>
+<td>18</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0018@390e513a</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0029.Filter_CustomerCardHomePageBy_CityOfBirth()'><b>Filter_CustomerCardHomePageBy_CityOfBirth</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0029</td>
+<td></td>
+<td>17</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0029@e888636</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0036.Filter_CustomerCardHomePageBy_ScoreRiskLevel_Minimum()'><b>Filter_CustomerCardHomePageBy_ScoreRiskLevel_Minimum</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0036</td>
+<td></td>
+<td>32</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0036@77a19366</td></tr>
+<tr>
+<td title='com.AML.TestCases.CustomerCard.CustomerCardHomePage0034.Filter_CustomerCardHomePageBy_RiskLevel_High()'><b>Filter_CustomerCardHomePageBy_RiskLevel_High</b><br>Test class: com.AML.TestCases.CustomerCard.CustomerCardHomePage0034</td>
+<td></td>
+<td>21</td>
+<td>com.AML.TestCases.CustomerCard.CustomerCardHomePage0034@7aa146e5</td></tr>
+</table><p>
+</body>
+</html>

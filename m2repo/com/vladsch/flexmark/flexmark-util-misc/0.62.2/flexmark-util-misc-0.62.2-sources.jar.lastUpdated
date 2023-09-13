@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 26 09:39:05 EET 2023
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1693031945576
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.vladsch.flexmark\:flexmark-util-misc\:jar\:sources\:0.62.2 from/to central (https\://repo.maven.apache.org/maven2)\: Connection reset

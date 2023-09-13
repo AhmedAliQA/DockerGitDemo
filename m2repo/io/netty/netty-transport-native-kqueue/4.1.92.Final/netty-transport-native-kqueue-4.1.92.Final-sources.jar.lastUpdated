@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 26 09:38:25 EET 2023
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1693031905256
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact io.netty\:netty-transport-native-kqueue\:jar\:sources\:4.1.92.Final from/to central (https\://repo.maven.apache.org/maven2)\: Connection reset

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Customer Details:- Entity">
+  <test name="Customer Details:- Entity">
+    <classes>     
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0001"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0002"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0003"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0004"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0005"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0006"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0007"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0008"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0009"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0010"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0011"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0012"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0013"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0014"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0015"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0016"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0017"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0018"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0019"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0020"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0021"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0022"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0023"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0024"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0025"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0026"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0027"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0028"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0029"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0030"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0031"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0032"/>
+		<class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0033"/>		
+</classes>
+  </test> 
+</suite> 
