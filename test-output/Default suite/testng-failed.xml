@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.AML.TestCases.CustomerCard.CustomerDetailsEntity0015">
+      <class name="docker.ChromeTest">
         <methods>
-          <include name="CloseBrowser"/>
-          <include name="StartBrowser"/>
-          <include name="CheckEntityCustomerNotesDataInNotesTab"/>
+          <include name="TestChrome"/>
         </methods>
-      </class> <!-- com.AML.TestCases.CustomerCard.CustomerDetailsEntity0015 -->
+      </class> <!-- docker.ChromeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

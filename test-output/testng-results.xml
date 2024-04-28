@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-03T16:03:20 EET" name="Suite" finished-at="2023-09-03T16:03:44 EET" duration-ms="24341">
+  <suite started-at="2024-04-28T11:18:29 EET" name="Suite" finished-at="2024-04-28T11:18:58 EET" duration-ms="29305">
     <groups>
     </groups>
-    <test started-at="2023-09-03T16:03:20 EET" name="CustomerCardHomePage" finished-at="2023-09-03T16:03:44 EET" duration-ms="24341">
-      <class name="com.AML.TestCases.CustomerCard.CustomerCardHomePage0005">
-        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:com.AML.TestCases.CustomerCard.CustomerCardHomePage0005@4c1ce13a]" started-at="2023-09-03T16:03:20 EET" name="StartBrowser" finished-at="2023-09-03T16:03:24 EET" duration-ms="3714" status="PASS">
+    <test started-at="2024-04-28T11:18:29 EET" name="Test" finished-at="2024-04-28T11:18:58 EET" duration-ms="29305">
+      <class name="docker.ChromeTest">
+        <test-method signature="TestChrome()[pri:0, instance:docker.ChromeTest@60fe75f7]" started-at="2024-04-28T11:18:29 EET" name="TestChrome" finished-at="2024-04-28T11:18:46 EET" duration-ms="16650" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StartBrowser -->
-        <test-method signature="Filter_CustomerCardHomePageBy_Customer_ID()[pri:0, instance:com.AML.TestCases.CustomerCard.CustomerCardHomePage0005@4c1ce13a]" started-at="2023-09-03T16:03:24 EET" name="Filter_CustomerCardHomePageBy_Customer_ID" finished-at="2023-09-03T16:03:43 EET" duration-ms="19909" status="PASS">
+        </test-method> <!-- TestChrome -->
+      </class> <!-- docker.ChromeTest -->
+      <class name="docker.FirefoxTest">
+        <test-method signature="TestFirefox()[pri:0, instance:docker.FirefoxTest@1734b1a]" started-at="2024-04-28T11:18:29 EET" name="TestFirefox" finished-at="2024-04-28T11:18:55 EET" duration-ms="25818" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Filter_CustomerCardHomePageBy_Customer_ID -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.AML.TestCases.CustomerCard.CustomerCardHomePage0005@4c1ce13a]" started-at="2023-09-03T16:03:44 EET" name="CloseBrowser" finished-at="2023-09-03T16:03:44 EET" duration-ms="185" status="PASS">
+        </test-method> <!-- TestFirefox -->
+      </class> <!-- docker.FirefoxTest -->
+      <class name="docker.EdgeTest">
+        <test-method signature="TestEdge()[pri:0, instance:docker.EdgeTest@51566ce0]" started-at="2024-04-28T11:18:29 EET" name="TestEdge" finished-at="2024-04-28T11:18:58 EET" duration-ms="29140" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- com.AML.TestCases.CustomerCard.CustomerCardHomePage0005 -->
-    </test> <!-- CustomerCardHomePage -->
+        </test-method> <!-- TestEdge -->
+      </class> <!-- docker.EdgeTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

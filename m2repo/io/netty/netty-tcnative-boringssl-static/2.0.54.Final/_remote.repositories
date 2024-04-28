@@ -1,9 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Aug 26 07:46:23 EET 2023
-netty-tcnative-boringssl-static-2.0.54.Final-linux-aarch_64.jar>central=
-netty-tcnative-boringssl-static-2.0.54.Final-linux-x86_64.jar>central=
-netty-tcnative-boringssl-static-2.0.54.Final-osx-aarch_64.jar>central=
-netty-tcnative-boringssl-static-2.0.54.Final-osx-x86_64.jar>central=
-netty-tcnative-boringssl-static-2.0.54.Final-windows-x86_64.jar>central=
-netty-tcnative-boringssl-static-2.0.54.Final.jar>central=
-netty-tcnative-boringssl-static-2.0.54.Final.pom>central=
