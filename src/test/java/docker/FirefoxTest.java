@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class FirefoxTest {
 	public void TestFirefox() throws MalformedURLException, InterruptedException
 	{
-		URL url = new URL("http://localhost:4444/wd/hub");
+		URL url = new URL("http://10.32.200.55:4444/wd/hub");
 		
 		FirefoxOptions options = new FirefoxOptions();
 		options.addArguments("--disable-notifications");
