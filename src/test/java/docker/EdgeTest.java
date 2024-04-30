@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class EdgeTest {
 	public void TestEdge() throws MalformedURLException, InterruptedException
 	{
-		URL url = new URL("http://localhost:4444/wd/hub");
+		URL url = new URL("https://admin:admin@selenium-grid.eastnets.com/wd/hub");
 		
 		EdgeOptions options = new EdgeOptions();
 		options.addArguments("--disable-notifications");
