@@ -23,6 +23,7 @@ public class ChromeTest {
 		options.addArguments("--disable-notifications");
 		options.addArguments("incognito");
 		options.addArguments("disable-features=DownloadBubble,DownloadBubbleV2");
+        options.setCapability("gsg:customcap", true);
 
 		
 		RemoteWebDriver driver = new RemoteWebDriver(url,options);
